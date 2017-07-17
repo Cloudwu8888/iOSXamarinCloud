@@ -51,7 +51,7 @@ namespace XamarinCloud1
 				// Send the notification summary to debug output
 				//System.Diagnostics.Debug.WriteLine(summary);
 			};
-            MobileCenter.Start("66c3c27d-5d41-4e2b-8c76-7fb23ca45e50",
+            MobileCenter.Start("5102fb17-d305-4904-83bc-44c665b86c24",
                                typeof(Analytics), typeof(Crashes),typeof(Push));
             Analytics.TrackEvent("First");
             Analytics.TrackEvent("Second");
